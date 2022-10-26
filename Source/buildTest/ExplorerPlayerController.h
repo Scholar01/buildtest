@@ -27,6 +27,12 @@ protected:
 	virtual void BeginPlay() override;
 
 private:
+	/**
+	 * @brief 创建360全景相机的widget
+	 */
 	void CreateMenu360Widget();
+	/**
+	 * @brief 创建主界面的widget
+	 */
 	void CreateMasterMenuWidget();
 };

@@ -13,7 +13,7 @@ void UMenu360Widget::NativeConstruct()
 	ButtonClose->OnClicked.Add(Delegate);
 }
 
-void UMenu360Widget::OnBtnCloseClick()
+void UMenu360Widget::OnBtnCloseClick() const
 {
 	UE_LOG(LogTemp, Log, TEXT("on btn close click"));
 }

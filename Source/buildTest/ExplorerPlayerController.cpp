@@ -7,6 +7,7 @@ void AExplorerPlayerController::BeginPlay()
 {
 	this->CreateMasterMenuWidget();
 	this->CreateMenu360Widget();
+	this->bShowMouseCursor = true;
 }
 
 void AExplorerPlayerController::CreateMenu360Widget()

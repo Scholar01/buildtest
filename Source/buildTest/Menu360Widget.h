@@ -19,7 +19,7 @@ protected:
 
 
 	UFUNCTION()
-	void OnBtnCloseClick();
+	void OnBtnCloseClick() const;
 
 private:
 	UPROPERTY()
